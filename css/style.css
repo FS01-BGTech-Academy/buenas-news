@@ -1,0 +1,131 @@
+
+/* IMPORTA A FONTE "INTER" */
+
+/* Reset (zera os valores) */
+* {
+    box-sizing: border-box;
+}
+
+/* html {} */
+
+body {
+    margin: 0;
+}
+
+a {
+    /* Herda o valor do elemento pai */
+    color: inherit;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    color: #ff5a52;
+}
+
+/* img {
+    display: block;
+    max-width: 100%;
+} */
+
+
+/* CABEÇALHO */
+.logo {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 12px; */
+}
+
+.logo img {
+    width: 64px;
+}
+
+.logotipo {
+    color: #081b33;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+/* .marca-texto span */
+.logotipo span {
+    color: #ff5a52;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.barra-navegacao {
+    border-top: solid 1px #dce2ea;
+    border-bottom: solid 1px #dce2ea;
+    color: #667286;
+    font-size: 14px; /* padrão 16px */
+    min-height: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 28px; */
+}
+
+header ul {
+    margin: o;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 28px;
+    /* flex-wrap: wrap; */
+}
+
+header nav a {
+    padding: 16px 0 12px;
+    /* display: block; */
+    border-bottom: solid 4px transparent;
+    font-weight: 700;
+}
+
+header nav a:hover,
+a.atual {
+    border-bottom-color: #ff5a52;
+}
+
+.botao-assinar {
+    color: #ffffff;
+    background-color: #ff5a52;
+    border: solid 2px #ff5a52;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    /* text-align: center; */
+    padding: 8px 24px;
+    /* display: inline-block; */
+}
+
+.botao-assinar:hover {
+    color: #ff5a52;
+    background-color: inherit;
+}
+
+
+
+/* TESTES */
+header {
+    /* background-color: #8cb3b4; */
+    height: 200px;
+}
+
+main {
+    /* background-color: #cff0ff; */
+    height: 500px;
+}
+
+footer {
+    background-color: #515151;
+    height: 200px;
+}
