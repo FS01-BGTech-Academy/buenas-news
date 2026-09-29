@@ -42,6 +42,11 @@ a:hover {
     /* gap: 12px; */
 }
 
+.logo a {
+    display: flex;
+    gap: 12px;
+}
+
 .logo img {
     width: 64px;
 }
