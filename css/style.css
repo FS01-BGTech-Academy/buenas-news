@@ -299,6 +299,64 @@ article a {
 }
 
 
+/* ASSINE O BUENAS NEWS+ */
+.secao-assinatura {
+    background-color: #121b27;
+    color: #ffffff;
+}
+
+.assinatura-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.assinatura-texto {
+    max-width: 690px;
+}
+
+.assinatura-texto h2 {
+    margin: 6px 0 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 42px;
+    line-height: 1.1;
+}
+
+.assinatura-texto p {
+    margin: 0 0 18px;
+    color: #c5d2e2;
+}
+
+p.beneficios {
+    margin: 0;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.assinatura-oferta {
+    min-width: 270px;
+    text-align: center;
+}
+
+.preco {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.assinatura-oferta .botao-assinar {
+    min-width: 210px;
+}
+
+.cancelamento {
+    margin: 10px 0 0;
+    color: #9eb6d5;
+    font-size: 12px;
+}
+
 
 
 /* TESTES */
