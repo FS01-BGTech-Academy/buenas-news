@@ -267,7 +267,36 @@ section {
     padding: 20px 0;
 }
 
+.noticia-destaque h3,
+.card-noticia h3 {
+    margin: 0 0 12px;
+    color: #081b33;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+.noticia-destaque h3 {
+    font-size: 26px;
+    line-height: 1.15;
+}
+
+.resumo {
+    margin: 0 0 18px;
+    color: #667286;
+}
+
+.info-noticia {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    color: #8994a5;
+    font-size: 14px;
+}
+
+article a {
+    color: #081b33;
+    font-weight: 800;
+}
 
 
 
