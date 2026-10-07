@@ -406,6 +406,88 @@ p.beneficios {
 }
 
 
+/* NEWSLETTER */
+.newsletter {
+    background-color: #eef4ff;
+}
+
+.newsletter h2 {
+    margin: 4px 0 10px;
+    color: #081b33;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34px;
+}
+
+.newsletter-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.newsletter-conteudo div {
+    max-width: 520px;
+}
+
+.newsletter p:not(.sobre-titulo) {
+/* .newsletter p { */
+    /* border: solid 2px red; */
+    margin: 0;
+    color: #667286;
+}
+
+.form-newsletter {
+    width: 45%;
+}
+
+.form-newsletter label {
+    display: block;
+    margin-bottom: 8px;
+    color: #081b33;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.campo-newsletter {
+    display: flex;
+}
+
+.campo-newsletter input,
+.campo-newsletter button {
+    font: inherit;
+    font-size: 14px;
+}
+
+.campo-newsletter input {
+    width: 100%;
+    padding: 8px;
+    border: solid 1px #bfcbe0;
+    border-right: 0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+/* Alterar a cor do texto somente do placeholder do input */
+.campo-newsletter input::placeholder {
+    color: #8994a5;
+}
+
+.campo-newsletter button {
+    padding: 8px 20px;
+    color: #ffffff;
+    background-color: #2487ff;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.campo-newsletter button:hover {
+    background-color: #ff5a52;
+}
 
 
 /* TESTES */
