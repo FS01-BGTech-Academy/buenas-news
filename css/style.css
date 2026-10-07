@@ -358,19 +358,57 @@ p.beneficios {
 }
 
 
+/* MAIS NOTÍCIAS */
+.lista-noticias {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-noticia {
+    padding: 26px 0;
+    display: flex;
+    gap: 28px;
+    border-bottom: solid 1px #dce2ea;
+}
+
+.card-noticia:first-child {
+    padding-top: 0;
+}
+
+.card-noticia img {
+    width: 310px;
+    height: 190px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.card-noticia .conteudo-noticia {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.card-noticia h3 {
+    max-width: 720px;
+    font-size: 24px;
+    line-height: 1.15;
+}
+
+.card-noticia .resumo {
+    max-width: 760px;
+}
+
+.link-noticia {
+    font-size: 14px;
+    margin-top: auto;
+    align-self: flex-end;
+}
+
+
+
 
 /* TESTES */
-header {
-    /* background-color: #8cb3b4; */
-    height: 200px;
-}
-
-main {
-    /* background-color: #cff0ff; */
-    min-height: 500px;
-    /* border: solid 2px red; */
-}
-
 footer {
     background-color: #515151;
     height: 200px;
