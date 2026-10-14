@@ -13,7 +13,7 @@ body {
     margin: 0;
     /* color: blue; */
     font-family: "Inter", sans-serif;
-    /* line-height: 1.5; */
+    line-height: 1.5;
 }
 
 a {
@@ -490,8 +490,103 @@ p.beneficios {
 }
 
 
-/* TESTES */
+/* FOOTER */
 footer {
-    background-color: #515151;
-    height: 200px;
+    padding: 60px 0 26px;
+    color: #9eb6d5;
+    background-color: #121b27;
 }
+
+.rodape-principal, .rodape-final
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.rodape-principal {
+    padding-bottom: 42px;
+}
+
+.rodape-marca {
+    max-width: 420px;
+}
+
+.marca-texto {
+    margin: 0 0 8px;
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.rodape-coluna {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.rodape-coluna h3 {
+    margin: 0 0 12px;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.rodape-final {
+    padding: 24px 0;
+    border-top: solid 1px #2a384a;
+    font-size: 14px;
+}
+
+.rodape-final p {
+    margin: 0;
+}
+
+.links-rodape {
+    display: flex;
+    gap: 22px;
+}
+
+
+/* RESPONSIVIDADE - MEDIA QUERIES */
+
+/* Smartphone portrait (retrato) */
+@media (max-width: 576px) {
+    header {
+        background-color: #2487ff;
+    }
+}
+
+/* Smartphone landscape (paisagem) */
+@media (min-width: 576px) {
+    header {
+        background-color: #ffd024;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    header {
+        background-color: #73e871;
+    }
+}
+
+/* Notebook */
+@media (min-width: 992px) {
+    header {
+        background-color: #c471e8;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+    header {
+        background-color: #909090;
+    }
+}
+
+/* Breakpoints mais comuns:
+    - de 0 até 576px        Smartphone portrait (retrato)
+    - de 576px até 768px    Smartphone landscape (paisagem)
+    - de 768px até 992px    Tablet
+    - de 992px até 1200px   Notebook
+*/
