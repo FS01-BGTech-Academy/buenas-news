@@ -551,6 +551,20 @@ footer {
 
 /* Smartphone portrait (retrato) */
 @media (max-width: 576px) {
+    .container {
+        width: 92%;
+    }
+
+    /* .cabecalho-mobile,
+    .menu-mobile {
+        width: 92%;
+    } */
+    
+    
+    
+
+    
+    
     header {
         background-color: #2487ff;
     }
